@@ -98,7 +98,7 @@ end
     puts "#{self.name} has returned. You gained a half-liter of milk, bringing your current milk count to #{self.milk_in_udders} liters. Your goat is happy now, too, and it forgot about those times you poked it."
   elsif input == "5"
     # let the goat nap.
-    puts "Your goat is taking a nap. Give it at least 15 seconds, or it might get moody (we'll let you know when 15 secs elapsed)."
+    puts "Your goat is taking a nap. Give it at least 15 seconds, or it might get moody (hint: pull out that dusty stopwatch...or just your computer's clock)!"
     start_time = Time.now
     end_time = start_time + 15
     sleep 1
